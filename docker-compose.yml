@@ -32,7 +32,7 @@ services:
 
   n8n:
     build:
-      context: ..
+      context: .
       dockerfile: Dockerfile
     restart: always
     entrypoint: /bin/sh -c "/docker-entrypoint.sh"
